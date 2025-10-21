@@ -15,5 +15,6 @@ public class DeomRestController {
     @GetMapping("/dailyworkout")
     public String getDailyWorkout() {
         return theCoach.getDailyWorkout();
+    
     }
 }
